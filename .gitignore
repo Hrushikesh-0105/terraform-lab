@@ -2,3 +2,4 @@ terraform.pdf
 .terraform/
 terraform.tfstate
 Terraform.tfstate.backup
+.terraform.lock.hcl
