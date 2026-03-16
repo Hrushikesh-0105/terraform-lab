@@ -31,4 +31,4 @@ jobs:
         run: terraform -chdir=${{ matrix.dir }} validate
 
       - name: Terraform Plan
-        run: terraform -chdir=${{ matrix.dir }} plan
+        run: terraform -chdir=${{ matrix.dir }} plan -input=false
